@@ -3,3 +3,92 @@ html, body {
     padding: 0;
 }
 
+#feed {
+    margin: 0;
+}
+
+#post-container {
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.title {
+    width: 150px;
+
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.name-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.avatar-section {
+    padding-right: .5rem;
+}
+
+.avatar {
+    margin: 0;
+    padding: 0;
+}
+
+.location {
+    margin: 0;
+}
+
+.name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.image-post {
+    width: 100%;
+}
+
+.icons-section {
+    margin: .5rem 1rem;
+}
+
+.icon {
+    width: 40px;
+    padding-right: 1.5rem;
+}
+
+.icon:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.likes-section {
+    margin: .5rem 1rem;
+}
+
+.likes {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.description-section {
+    margin: .5rem 1rem;
+}
+
+.description {
+    font-size: 1.2rem;
+}
+
+
+
